@@ -1,0 +1,25 @@
+.cabeceraTable {
+    background-color: #04AA6D;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeceraTable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    margin: auto;
+    border: 1px #ddd solid;
+    padding: 8px;
+}
+tbody tr:hover{
+    background-color: #ddd;
+}
+tbody tr:nth-child(odd){
+    background-color: #f2f2f2;
+}

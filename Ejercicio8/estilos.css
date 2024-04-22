@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+section {
+    display: flex;
+}
+
+nav {
+    flex: 8;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+article {
+    background-color: #f1f1f1;
+    flex: 8;
+    padding: 10px;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

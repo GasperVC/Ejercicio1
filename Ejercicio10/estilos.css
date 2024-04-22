@@ -1,0 +1,65 @@
+.cabecera {
+    height: 110px;
+    background-color: rgb(196, 54, 83);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.cabecera img {
+    height: 70px;
+    width: 70px;
+}
+
+.cabecera p {
+    color: white;
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+/*Parte de las divisiones del cuerpo*/
+
+.divi1 {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Parte de la Imagen*/
+.divi1 nav img {
+    height: 180px;
+    width: 125px;
+    border-radius: 9px;
+}
+
+/*Parte del resto*/
+.conten1 {
+    margin-left: 30px;
+    display: table;
+}
+
+/*Parte resto superior*/
+.contSuper1 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.contSuper1 h1 {
+    padding-right: 10px;
+}
+
+.contSuper1 a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Parte resto texto*/
+.conten1 h1 {
+    margin: 0px;
+}

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+.cabecera{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 30px;
+    padding: 30px 25px;
+}
+.cabecera img{
+    margin: 0px;
+    height: 30px;
+    margin-right: 7px;
+}
+.cabecera #textIzq{
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+.cabecera #textDer{
+    margin: 0px;
+    color: #DEEBF8;
+    font-weight: 600;
+}
+/* Cuepo */
+.cuerpo{
+    padding: 50px 27px;
+    color: white;
+    background-image: url(images/react-icon-small.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: right 75%;
+}
+.cuerpo h1{
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+li{
+    padding-top: 20px;
+}
+li::marker{
+    color: red;
+}

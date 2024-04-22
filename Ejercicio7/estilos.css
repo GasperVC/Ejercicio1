@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+/* Parte de la cabecera*/
+.cabecera{
+    background-color: beige;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+.cabecera h1{
+    margin: 0px;
+    padding: 10px;
+}
+/* Parte del menu */
+.menu{
+    background-color: black;
+    overflow: hidden;
+}
+.menu a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+
+}
+.menu a:hover{
+    background-color: gray;
+}
+/* Parte de las secciones */
+.secciones {
+    float: left;
+    display: flex;
+}
+.secciones section{
+    padding: 15px;
+}
+@media screen and (max-width:600px) {
+    .secciones section {
+      width: 100%;
+    }
+}
